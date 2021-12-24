@@ -18,12 +18,7 @@ class Example extends ResourceController{
   }
   
   public function verifyToken(){
-    $authjwt = new Authjwt();
-
-        if($payload = $authjwt->verifyToken()){
-          echo $payload;
-        }else{
-          echo "Failed";
-        }
+   $payload = $session->getFlashdata('jwtpayload');
+    echo $payload;
   }
 }
