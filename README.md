@@ -1,4 +1,4 @@
-# GIST-JWT-authorization-codeigntier-4
+# JWT authorization codeigntier 4
 This is example code for using JWT Authorization in Codeigniter 4
 
 you must install jwt using composer before using JWT library. 
