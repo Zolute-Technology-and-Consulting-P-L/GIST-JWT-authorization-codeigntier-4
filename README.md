@@ -8,3 +8,6 @@ Install JWT
 ```
 composer install firebase/php-jwt
 ```
+
+
+For more assistance contact us on connect@zolute.consulting or visit https://www.zolute.consulting
